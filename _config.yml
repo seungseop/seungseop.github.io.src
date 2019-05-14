@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true # 자원을 각각 관리하기 위한 옵션. $ hexo new [layout] <title> 커맨드로 새 글을 생성할 때마다 함께 폴더가 생성됩니다.
 relative_link: false
 future: true
 highlight:
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: clean-blog
+theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
