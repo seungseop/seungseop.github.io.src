@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Sam's story ## 웹 사이트의 제목. <title> 태그에 포함됨(테마에 따라 페이지에 노출)
-subtitle: ## 웹 사이트의 부제(테마에 따라 페이지에 노출)
-description: ## 웹 사이트에 대한 설명. <meta> 태그의 description 속성 값에 포함됨
+title: Sam's ## 웹 사이트의 제목. <title> 태그에 포함됨(테마에 따라 페이지에 노출)
+subtitle: Web Story ## 웹 사이트의 부제(테마에 따라 페이지에 노출)
+description: Web Developer ## 웹 사이트에 대한 설명. <meta> 태그의 description 속성 값에 포함됨
 author: Sam ## 작성자 이름
 language: ko ## 웹 사이트의 주 사용언어. <html> 태그의 lang 속성 값에 포함됨. 기본 값은 en
 timezone: Asia/Seoul ## 웹 사이트에서 사용하는 timezone. 기본적으로 PC의 시간값을 사용. https://en.wikipedia.org/wiki/List_of_tz_database_time_zones에서 확인.
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: icarus
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

@@ -1,0 +1,237 @@
+# Version of the Icarus theme that is currently used
+version: 2.3.0
+# Path or URL to the website's icon
+favicon: /images/logo.svg
+# Path or URL to RSS atom.xml
+rss: 
+# Path or URL to the website's logo to be shown on the left of the navigation bar or footer
+logo: /images/logo.svg
+# Open Graph metadata
+# https://hexo.io/docs/helpers.html#open-graph
+open_graph:
+    # Facebook App ID
+    fb_app_id: 
+    # Facebook Admin ID
+    fb_admins: 
+    # Twitter ID
+    twitter_id: 
+    # Twitter site
+    twitter_site: 
+    # Google+ profile link
+    google_plus: 
+# Navigation bar link settings
+navbar:
+    # Navigation bar menu links
+    menu:
+        Home: /
+        Archives: /archives
+        Categories: /categories
+        Tags: /tags
+        About: /about
+    # Navigation bar links to be shown on the right
+    links:
+        Download on GitHub:
+            icon: fab fa-github
+            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+# Footer section link settings
+footer:
+    # Links to be shown on the right of the footer section
+    links:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: 'https://creativecommons.org/'
+        Attribution 4.0 International:
+            icon: fab fa-creative-commons-by
+            url: 'https://creativecommons.org/licenses/by/4.0/'
+        Download on GitHub:
+            icon: fab fa-github
+            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+# Article display settings
+article:
+    # Code highlight theme
+    # https://github.com/highlightjs/highlight.js/tree/master/src/styles
+    highlight: ir-black
+    # Whether to show article thumbnail images
+    thumbnail: true
+    # Whether to show estimate article reading time
+    readtime: true
+# Search plugin settings
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search
+search:
+    # Name of the search plugin
+    type: insight
+# Comment plugin settings
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment
+comment:
+    # Name of the comment plugin
+    type: 
+# Donation entries
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
+donate:
+    -
+        # Donation entry name
+        type: alipay
+        # Qrcode image URL
+        qrcode: ''
+    -
+        # Donation entry name
+        type: wechat
+        # Qrcode image URL
+        qrcode: ''
+    -
+        # Donation entry name
+        type: paypal
+        # Paypal business ID or email address
+        business: ''
+        # Currency code
+        currency_code: USD
+    -
+        # Donation entry name
+        type: patreon
+        # URL to the Patreon page
+        url: ''
+# Share plugin settings
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share
+share:
+    # Share plugin name
+    type: 
+# Sidebar settings.
+# Please be noted that a sidebar is only visible when it has at least one widget
+sidebar:
+    # left sidebar settings
+    left:
+        # Whether the left sidebar is sticky when page scrolls
+        # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
+        sticky: false
+    # right sidebar settings
+    right:
+        # Whether the right sidebar is sticky when page scrolls
+        # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/make-a-sidebar-sticky-when-page-scrolls/
+        sticky: false
+# Sidebar widget settings
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
+widgets:
+    -
+        # Widget name
+        type: profile
+        # Where should the widget be placed, left or right
+        position: left
+        # Author name to be shown in the profile widget
+        author: Sam
+        # Title of the author to be shown in the profile widget
+        author_title: Web Developer
+        # Author's current location to be shown in the profile widget
+        location: Seoul / South korea
+        # Path or URL to the avatar to be shown in the profile widget
+        avatar: data:image/jpeg;base64,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
+        # Email address for the Gravatar to be shown in the profile widget
+        gravatar: 
+        # Whether to show avatar image rounded or square
+        avatar_rounded: true
+        # Path or URL for the follow button
+        follow_link: 'https://github.com/seungseop'
+        # Links to be shown on the bottom of the profile widget
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: 'https://github.com/seungseop'
+            Facebook:
+                icon: fab fa-facebook
+                url: 'https://facebook.com/SoOne7'
+            Instagram:
+                icon: fab fa-instagram
+                url: https://www.instagram.com/seungsub7
+            # Twitter:
+            #     icon: fab fa-twitter
+            #     url: 'https://twitter.com'
+            # Dribbble:
+            #     icon: fab fa-dribbble
+            #     url: 'https://dribbble.com'
+            # RSS:
+            #     icon: fas fa-rss
+            #     url: /
+    -
+        # Widget name
+        type: toc
+        # Where should the widget be placed, left or right
+        position: left
+    -
+        # Widget name
+        type: links
+        # Where should the widget be placed, left or right
+        position: left
+        # Links to be shown in the links widget
+        links:
+            Hexo: 'https://hexo.io'
+            PPOffice: 'https://github.com/ppoffice'
+    -
+        # Widget name
+        type: category
+        # Where should the widget be placed, left or right
+        position: left
+    -
+        # Widget name
+        type: tagcloud
+        # Where should the widget be placed, left or right
+        position: left
+    -
+        # Widget name
+        type: recent_posts
+        # Where should the widget be placed, left or right
+        position: right
+    -
+        # Widget name
+        type: archive
+        # Where should the widget be placed, left or right
+        position: right
+    -
+        # Widget name
+        type: tag
+        # Where should the widget be placed, left or right
+        position: right
+# Other plugin settings
+plugins:
+    # Enable page animations
+    animejs: true
+    # Enable the lightGallery and Justified Gallery plugins
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/gallery-plugin/
+    gallery: true
+    # Enable the Outdated Browser plugin
+    # http://outdatedbrowser.com/
+    outdated-browser: true
+    # Enable the MathJax plugin
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/mathjax-plugin/
+    mathjax: true
+    # Show the back to top button on mobile devices
+    back-to-top: true
+    # Google Analytics plugin settings
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Google-Analytics
+    google-analytics:
+        # Google Analytics tracking id
+        tracking_id: 
+    # Baidu Analytics plugin settings
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Baidu-Analytics
+    baidu-analytics:
+        # Baidu Analytics tracking id
+        tracking_id: 
+    # Hotjar user feedback plugin
+    # https://ppoffice.github.io/hexo-theme-icarus/Plugins/General/site-analytics-plugin/#Hotjar
+    hotjar:
+        # Hotjar site id
+        site_id: 
+    # Show a loading progress bar at top of the page
+    progressbar: true
+    # Show the copy button in the highlighted code area
+    clipboard: true
+    # BuSuanZi site/page view counter
+    # https://busuanzi.ibruce.info
+    busuanzi: false
+# CDN provider settings
+# https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
+providers:
+    # Name or URL of the JavaScript and/or stylesheet CDN provider
+    cdn: jsdelivr
+    # Name or URL of the webfont CDN provider
+    fontcdn: google
+    # Name or URL of the webfont Icon CDN provider
+    iconcdn: fontawesome
