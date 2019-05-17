@@ -1,5 +1,6 @@
 ---
 title: Hexo 테마 - Next
+categories: Hexo
 tags:
 - blog
 - hexo
@@ -15,8 +16,8 @@ $ cd [myBlog] # 내 블로그(Hexo Project) 폴더로 이동
 $ git clone https://github.com/theme-next/hexo-theme-next themes/next
 ```
 
-2. `_config.yml` 파일의 theme 속성 변경
-```yaml
+2. Hexo 환경파일(`_config.yml`)의 theme 속성 변경
+``` yaml
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -29,17 +30,18 @@ hexo clean
 hexo s # hexo server
 ```
 
-## 테마 환경 설정(`themes/next/_config.yml`)
+## 테마 환경 설정
+테마 환경파일 위치 : `themes/next/_config.yml`
   - ㅁ
-  ```yaml
+  ``` yaml
   # themes/next/_config.yml
 
   ```
 
 ## 기타
-1. 메뉴(페이지) 추가하기
+1. 메뉴항목(페이지) 추가하기
   - `공통` : 원하는 메뉴항목을 추가해준다.
-  ```yaml
+  ``` yaml
   # themes/next/_config.yml
   menu:
     home: / || home
@@ -52,9 +54,9 @@ hexo s # hexo server
     commonweal: /404/ || heartbeat
   ```
   {% asset_img etc1.jpg %}
-
+  - 카테고리(`categories`)
   - `tags`
-  ```yaml
+  ``` yaml
   # themes/next/_config.yml
 
   ```

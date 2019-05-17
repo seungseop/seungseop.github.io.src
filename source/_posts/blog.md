@@ -18,7 +18,7 @@ tags:
   Tip : 저장소 이름은 상관없습니다.
 
 ## [Hexo](https://hexo.io/ko/) 시작
-```bash
+``` bash
 # Hexo cli 설치(글로벌)
 $ npm install -g hexo-cli
 
@@ -37,7 +37,7 @@ $ hexo server
 ```
 
 - Hexo 블로그 프로젝트 폴더 구조
-```bash
+``` bash
 ├── _config.yml # Hexo 환경설정 파일
 ├── package.json # npm 환경 파일
 ├── scaffolds # 포스트 생성시 참조되는 레이아웃(page, post, draft) 파일들이 있는 폴더
@@ -49,7 +49,7 @@ $ hexo server
 ```
 
 ### 프로젝트 리소스 관리를 위한 github commit & push
-```bash
+``` bash
 # 버전관리 폴더 생성 .git/
 $ git init
 

@@ -35,10 +35,10 @@ cache:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  small: /images/favicon-s.svg
+  medium: /images/favicon-s.svg
+  apple_touch_icon: /images/favicon-s.svg
+  safari_pinned_tab: /images/favicon-s.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -162,9 +162,9 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  schedule: /schedule/ || calendar
-  sitemap: /sitemap.xml || sitemap
-  commonweal: /404/ || heartbeat
+  # schedule: /schedule/ || calendar
+  # sitemap: /sitemap.xml || sitemap
+  # commonweal: /404/ || heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -201,6 +201,7 @@ social:
   E-Mail: mailto:seungsub7@naver.com || envelope
   Facebook: https://www.facebook.com/SoOne7 || facebook
   Instagram: https://instagram.com/seungsub7 || instagram
+  NaverBlog: https://blog.naver.com/seungsub7 || bold
   #Weibo: https://weibo.com/yourname || weibo
   # Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
