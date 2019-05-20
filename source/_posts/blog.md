@@ -1,6 +1,7 @@
 ---
 title: Github Pages에 Blog 만들기
 date: 2019-05-14 23:57:35
+categories: Blog
 tags: 
 - blog
 - github

@@ -1,7 +1,8 @@
 ---
 title: Hexo live-reload 플러그인(hexo-browsersync)
-categories: Hexo
+categories: Blog
 tags:
+- blog
 - hexo
 - plugin
 - live-reload
@@ -42,4 +43,4 @@ INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
 
 ## 문제
 {% asset_img hexo-plugin-browsersync1.jpg %}
-일부 페이지(홈)가 정상적으로 렌더링되지 않는 현상이 있다.
+어떤 조건이 되면, 일부 페이지가 정상적으로 렌더링되지 않는 현상이 있다.

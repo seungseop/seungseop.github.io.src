@@ -15,6 +15,7 @@ HTML 요소 내부에 내용을 렌더링 하기 위한 방식 `v-text`는 javas
 ``` html
 <span v-text="msg"></span>
 <-- '<span>{{msg}}</span>'와 같이 동작합니다. -->
+
 <span></span>
 ```
 

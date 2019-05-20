@@ -1,6 +1,6 @@
 ---
 title: Hexo 테마 - Next
-categories: Hexo
+categories: Blog
 tags:
 - blog
 - hexo
