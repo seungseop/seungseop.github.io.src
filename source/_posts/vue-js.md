@@ -2,10 +2,12 @@
 title: Vue.js
 categories: Vue.js
 tags:
-- javascript
-- framework
-- vue.js
+  - javascript
+  - framework
+  - vue.js
+date: 2019-05-20 16:30:51
 ---
+
 <img src="/images/vue-js.png" width="200" style="border:0 none;" />
 
 # [Vue.js](https://kr.vuejs.org/v2/guide/index.html)

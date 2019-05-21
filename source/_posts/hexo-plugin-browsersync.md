@@ -2,12 +2,14 @@
 title: Hexo live-reload 플러그인(hexo-browsersync)
 categories: Blog
 tags:
-- blog
-- hexo
-- plugin
-- live-reload
-- browsersync
+  - blog
+  - hexo
+  - plugin
+  - live-reload
+  - browsersync
+date: 2019-05-15 16:25:51
 ---
+
 Hexo를 이용해 Markdown(.md)으로 글 포스팅을 하다보면 코딩하는 것과 비슷한 느낌을 받는다.(포스팅을 VScode로 해서그런가...)
 프론트 페이지 작업을 하다보면, 저장할 때마다 Refresh(F5)를 해주는게 너무 귀찮은일이 아닐 수 없다.
 이런 불편함을 해소하기 위해 나온게 live-reload(browsersync) 기능인데, Hexo에도 이런 기능을 하는 플러그인이 있길래 설치해본다.

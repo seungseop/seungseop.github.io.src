@@ -1,12 +1,14 @@
 ---
-title: "[VSCode 확장] Vue Snippets"
+title: '[VSCode 확장] Vue Snippets'
 categories: VSCode
 tags:
-- vscode
-- extensions
-- vue
-- snippets
+  - vscode
+  - extensions
+  - vue
+  - snippets
+date: 2019-05-21 16:36:52
 ---
+
 ## Vue Snippets
 뷰 컴포넌트 추가할때마다 SFC(Single File Components) 스타일(`<template>`, `<script>`, `<style>`)을 일일히 치는게 귀찮다보니 찾아봤다.
 

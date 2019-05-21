@@ -1,11 +1,13 @@
 ---
 title: Vue.js - 디렉티브(directive)
+date: 2019-05-21 16:29:50
 categories: Vue.js
 tags:
-- javascript
-- framework
-- vue.js
+  - javascript
+  - framework
+  - vue.js
 ---
+
 # [디렉티브(directive)](https://kr.vuejs.org/v2/api/#%EB%94%94%EB%A0%89%ED%8B%B0%EB%B8%8C)
 디렉티브는 속성명 앞에 `v-`로 시작하는 프리픽스가 붙는 특수한 속성으로 새로운 기능을 제공한다.
 디렉티브의 속성 값은 단일 **javscript 표현식**이다.

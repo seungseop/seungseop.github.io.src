@@ -2,14 +2,16 @@
 title: Swiper.js (with. Vue.js)
 categories: Modules
 tags:
-- npm
-- modules
-- swiper
-- slider
-- carousel
+  - npm
+  - modules
+  - swiper
+  - slider
+  - carousel
+date: 2019-05-21 16:37:15
 ---
+
 ## [Swiper.js](http://idangero.us/swiper/)
-괜찮은 javscript Slider(Carousel) 라이브러리인 `Swiper.js`를 사용해보자.
+꽤 괜찮은 javscript Slider(Carousel) 라이브러리인 `Swiper.js`를 사용해보자.
 -  DOCS : [http://idangero.us/swiper/api/](http://idangero.us/swiper/api/)
 
 ### [Vue (vue-awesome-swiper)](https://github.com/surmon-china/vue-awesome-swiper)

@@ -1,6 +1,6 @@
 ---
 title: categories
-date: 2019-05-16 10:13:38
+date: YYYY-MM-DD HH:mm:ss
 type: "categories"
 comments: false
 ---

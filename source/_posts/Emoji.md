@@ -2,10 +2,12 @@
 title: 에모지(Emoji) 모음
 categories: Blog
 tags:
-- blog
-- post
-- emoji
+  - blog
+  - post
+  - emoji
+date: 2019-05-20 16:27:39
 ---
+
 에모지는 그림문자 및 유니코드의 그림문자 처리 기술을 말한다.
 에모지는 일본어 “그림”과 “문자”의 합성어이다. - [위키백과](https://to.ly/1zaS3)
 
