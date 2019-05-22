@@ -8,14 +8,14 @@ tags:
 date: 2019-05-20 16:30:51
 ---
 
-<img src="/images/vue-js.png" width="200" style="border:0 none;" />
+<img src="/images/vue-js_logo.png" width="200" style="border:0 none;" />
 
 # [Vue.js](https://kr.vuejs.org/v2/guide/index.html)
 '에반 유(Evan You)'라는 개발자가 만든 Front-end Javscript Framework.
 Vue.js는 Application 개발 디자인 패턴 중 MVVM 패턴에서 영감을 받아 그 중 ViewModel(VM)과 같은 부분을 담당하는 프레임워크이다.
 
 ## MVVM 패턴
-{% asset_img vue-js1.png %}
+{% asset_img vue-js1.jpg %}
 
 ### View
 ``` html

@@ -15,10 +15,9 @@ date: 2019-05-21 16:37:15
 -  DOCS : [http://idangero.us/swiper/api/](http://idangero.us/swiper/api/)
 
 ### [Vue (vue-awesome-swiper)](https://github.com/surmon-china/vue-awesome-swiper)
-Swiper.js의 Vue.js 호환 버전이다.
-- DEMO : [https://surmon-china.github.io/vue-awesome-swiper/](https://surmon-china.github.io/vue-awesome-swiper/)
+Swiper.js의 Vue.js 호환 버전이다. [DEMO > ](https://surmon-china.github.io/vue-awesome-swiper/)
 
-#### Installation
+#### 설치하기(Installation)
 ``` bash
 # npm
 $ npm install vue-awesome-swiper --save
@@ -26,8 +25,8 @@ $ npm install vue-awesome-swiper --save
 $ yarn add vue-awesome-swiper --save
 ```
 
-#### Mount
-**mount with global**
+#### 사용하기(Mount)
+**글로벌(global)**
 ``` js
 import Vue from 'vue'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
@@ -38,7 +37,33 @@ import 'swiper/dist/css/swiper.css'
 Vue.use(VueAwesomeSwiper, /* { default global options } */)
 ```
 
-**mount with component**
+`Nuxt.js`에서 글로벌로 사용할 때, `plugins/`폴더 내에 다음과 같이 사용한다.
+``` js
+// plugins/swiper.js
+
+import Vue from 'vue'
+import VueAwesomeSwiper from 'vue-awesome-swiper/dist/ssr'
+
+// require styles
+import 'swiper/dist/css/swiper.css'
+
+Vue.use(VueAwesomeSwiper, /* { default global options } */)
+```
+`nuxt.config.js`내의 `plugins`속성 값 추가
+``` js
+module.exports = {
+  ...
+  /*
+  ** Plugins to load before mounting the App
+  */
+  plugins: [
+    { src: '~/plugins/swiper.js', ssr: false },
+  ]
+  ...
+}
+```
+
+**컴포넌트(component)**
 ``` js
 // require styles
 import 'swiper/dist/css/swiper.css'
@@ -53,16 +78,16 @@ export default {
 }
 ```
 
-**mount with ssr**
+**SSR 환경**
 ``` js
-// If used in nuxt.js/ssr, you should keep it only in browser build environment
+// 만약 Nuxt.js(SSR) 환경이라면, 브라우저 환경(process.browser)에서만 사용
 if (process.browser) {
   const VueAwesomeSwiper = require('vue-awesome-swiper/dist/ssr')
   Vue.use(VueAwesomeSwiper)
 }
 ```
 
-**custom swiper plugin**
+**Swiper 플러그인 옵션 변경**
 ``` js
 import Swiper from 'swiper'
 Swiper.use({
@@ -80,12 +105,11 @@ Swiper.use({
 })
 ```
 
-#### Difference
-SSR and the only difference in the use of the SPA:
-- SPA worked by the `component`, find swiper instance by `ref attribute`.
-- SSR worked by the `directive`, find swiper instance by `directive arg`.
-- Other configurations, events are the same.
-
+#### 차이점(Difference)
+`SSR`과 `SPA`에서 사용할 때 유일한 차이점 :
+- `SPA`는 컴포넌트(`component`) 형태로 사용하고, `ref` 속성으로 `Swiper`인스턴스를 찾으세요.
+- `SSR`은 디렉티브(`directive`) 형태로 사용하고, `directive arg`로 `Swiper`인스턴스를 찾으세요.
+- 다른 환경과 이벤트는 동일합니다.
 
 **SPA**
 ``` html
@@ -114,9 +138,7 @@ SSR and the only difference in the use of the SPA:
     data() {
       return {
         swiperOption: {
-          // some swiper options/callbacks
-          // 所有的参数同 swiper 官方 api 参数
-          // ...
+          // swiper 옵션, 콜백함수 모두 동일하게 사용
         }
       }
     },
@@ -126,8 +148,7 @@ SSR and the only difference in the use of the SPA:
       }
     },
     mounted() {
-      // current swiper instance
-      // 然后你就可以使用当前上下文内的swiper对象去做你想做的事了
+      // 현재 swiper 인스턴스를 확인
       console.log('this is current swiper instance object', this.swiper)
       this.swiper.slideTo(3, 1000, false)
     }
@@ -135,7 +156,7 @@ SSR and the only difference in the use of the SPA:
 </script>
 ```
 
-**Async data example**
+**비동기 데이터에서의 사용 예제**
 ``` html
 <template>
   <swiper :options="swiperOption">
