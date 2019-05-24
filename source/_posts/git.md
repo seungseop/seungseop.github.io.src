@@ -94,8 +94,9 @@ $ git commit -m "커밋 메세지"
 $ git push origin <가지(branch) 명>
 ```
 
-### TIP : 각 명령어들은 `--help` 옵션을 통해 메뉴얼 페이지로 연결이 가능하다.
+## \--help
+각 명령어들은 `--help` 옵션을 통해 메뉴얼 페이지로 연결이 가능하다.
 예) `$ git commit --help`를 하면 `commit` 명령어에 대한 메뉴얼 페이지가 열린다.
 
-### 참고 링크
+## 참고 링크
 - [git - 간편 안내서](https://rogerdudler.github.io/git-guide/index.ko.html)

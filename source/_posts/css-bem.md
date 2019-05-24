@@ -33,12 +33,12 @@ CSS 방법론에는 SMASS, BEM, OOCSS 등이 있지만 그중에서도 `BEM`을 
 
 BEM은 "Yandex"라는 회사에서 개발한 방법론으로, BEM 이름 그대로 블록(Block) / 요소(Element) / 수식어(Modifier)로 구분하고 이를 두 개의 언더 스코어(\__)나 하이픈(\--)으로 연결한 형태로 작명하는(`block__element--modifier`, `block--modifier`) 형태를 띱니다.
 
-#### 작명 규칙(Naming Convention)
+### 작명 규칙(Naming Convention)
 - 개발, 디버깅, 유지보수를 위하여 CSS 선택자의 이름을 가능한 한 **명확하게** 만드는 것이 목표이다.
 - **영어 소문자**, **숫자**만을 이용한다.
 - 여러단어의 조합은 **하이픈(-)**으로 연결한다.
 
-#### 블록(Block)
+### 블록(Block)
 - 페이지 구성 요소 중 **재사용** 할 수 있고, 기능적으로 **독립적인**. 즉, 하나의 **컴포넌트** 요소이다.
 - HTML에서 블록은 **class 속성**으로 표시한다.
 - 형태(red, big)가 아닌 **목적(menu, button)**에 맞게 결정한다.
@@ -55,7 +55,7 @@ BEM은 "Yandex"라는 회사에서 개발한 방법론으로, BEM 이름 그대�
 </div>
 ```
 
-#### 요소(Element)
+### 요소(Element)
 - **블록이 포함**하고 있는 하나의 조각(**특정 기능**)이다.
 - `block__element` 형태로, 블록 뒤에 두개의 언더 스코어(\__)로 연결한다.
 - **형태(색상, 크기)**가 아닌 **목적(item, text, title)**에 맞게 결정해야 한다.
@@ -71,7 +71,7 @@ BEM은 "Yandex"라는 회사에서 개발한 방법론으로, BEM 이름 그대�
 - 모든 블록에서 **요소는 필수가 아닌 선택적으로 사용**한다. 즉, 블록안에 요소가 없을 수도 있다.
 예) menu__item, header__title ...
 
-#### 수식어(Modifier)
+### 수식어(Modifier)
 - 블록이나 요소의 **모양(color, size..)**, **상태(disabled, checked..)**를 정의한다.
 - `block__element--modifier`, `block--modifier` 형태로, 블록이나 요소 뒤에 두개의 하이픈(--)으로 연결한다.
 - 수식어는 **불리언 타입(boolean)**과 **키-벨류** 타입이 있다.
@@ -79,7 +79,7 @@ BEM은 "Yandex"라는 회사에서 개발한 방법론으로, BEM 이름 그대�
 - **키-벨류 타입**: 키, 벨류를 하이픈으로 연결하여 표시한다. (`color-red`, `theme-ocean`)
 - 수식어는 **단독으로 사용할 수 없다**. 즉, 기본 **블록과 요소에 추가하여 사용**해야 한다. (`class="block__element block__element--modifier"`)
 
-#### 혼합사용(Mix)
+### 혼합사용(Mix)
 - `block1`, `block2__element` 형태로 사용할 수 있다.
 - `block2__element`에 여백이나 위치를 지정하고 block1은 독립적으로 유지할 수 있다.
 예)
@@ -93,7 +93,7 @@ BEM은 "Yandex"라는 회사에서 개발한 방법론으로, BEM 이름 그대�
 
 하지만, 위의 내용을 모두 그대로 사용하는 것이 아닌. 팀 또는 프로젝트 내에서 정비하여 대부분이 만족할 수 있는 더 나은 규칙을 만들어나가는 것이 중요할 것입니다.
 
-### 참고 링크
+## 참고 링크
 - [https://medium.com/witinweb/css-%EB%B0%A9%EB%B2%95%EB%A1%A0-1-bem-block-element-modifier-1c03034e65a1](https://medium.com/witinweb/css-%EB%B0%A9%EB%B2%95%EB%A1%A0-1-bem-block-element-modifier-1c03034e65a1)
 - [https://webclub.tistory.com/263](https://webclub.tistory.com/263)
 - [https://a-tothe-z.tistory.com/2](https://a-tothe-z.tistory.com/2)
