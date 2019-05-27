@@ -603,8 +603,8 @@ calendar:
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: sams-web-story
   count: true
   lazyload: false
 

@@ -19,6 +19,7 @@
   },
   "scripts": {
     "s": "hexo server --open",
-    "s:d": "hexo server --draft --open"
+    "s:d": "hexo server --draft --open",
+    "deploy": "hexo clean && hexo deploy --generate"
   }
 }
