@@ -1,5 +1,5 @@
 ---
-title: "[Hexo 테마] Next 댓글 사용하기(DISQUS)"
+title: '[Hexo 테마] Next 댓글 사용하기(DISQUS)'
 categories: Blog
 tags:
   - blog
@@ -7,7 +7,9 @@ tags:
   - theme
   - next
   - disqus
+date: 2019-05-27 18:59:52
 ---
+
 [댓글 기능 추가하기](https://theme-next.org/docs/third-party-services/comments-and-widgets)
 친절하게도 다양한 댓글 서비스를 연결할 수 있도록 준비되어 있다. 그 중에서 블로그 댓글로 많이 사용하는 `DISQUS`를 적용해 보도록 한다.
 
