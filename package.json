@@ -23,6 +23,7 @@
     "n": "hexo new",
     "p": "hexo publish",
     "d": "hexo clean && hexo deploy --generate",
-    "c": "git add * && git commit -m"
+    "c": "git add * && git commit -m",
+    "push": "git push origin master"
   }
 }
