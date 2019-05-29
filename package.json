@@ -20,6 +20,9 @@
   "scripts": {
     "s": "hexo server --open",
     "s:d": "hexo server --draft --open",
-    "deploy": "hexo clean && hexo deploy --generate"
+    "n": "hexo new",
+    "p": "hexo publish",
+    "d": "hexo clean && hexo deploy --generate",
+    "c": "git add * && git commit -m"
   }
 }
