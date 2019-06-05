@@ -57,3 +57,4 @@ HTML 요소에는 `<div>｛{ message }｝</div>`와 같이 괄호로 감싼 템�
 - [CaptainPangyo - Vue.js 입문서 - 프론트엔드 개발자를 위한](https://joshua1988.github.io/web-development/vuejs/vuejs-tutorial-for-beginner/)
 - [VELOPERT.LOG - [Vue.JS 2.0] 소개 및 시작하기](https://velopert.com/3007)
 - [TOAST Meetup - 자바스크립트 프레임워크 소개 3 - Vue.js](https://meetup.toast.com/posts/99)
+- [Vue JS Crash Course - 2019(Vue.js Todo App 만들어보기)](https://youtu.be/Wy9q22isx3U)
